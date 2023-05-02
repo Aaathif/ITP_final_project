@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Titillium+Web:wght@300;400;700&display=swap');
+
+*,*::after, *::before{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium web' , sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:rgb(74, 11, 74);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 8vh;
+    background:#F6A31E5E;
+}
+
+.logoDiv {
+    display: flex;
+    align-items: center;
+}
+
+.nav_brand{
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    /* color: black; */
+    
+}
+/* in one horizontal line */
+.nav_menu{
+    display: flex; /* To get nav bar items ion same horizontal line */
+    align-items: center;
+    justify-content:space-around;
+    gap: 3rem;
+}
+/* 4 lines */
+.nav_toggler div{
+    width: 2.5rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background:rgb(74, 11, 74);
+    transition: 0.4s ease-in;
+
+}
+.nav_toggler{
+    cursor: pointer;
+    display: none;
+
+}
+/* if page size is reduced 4 lines will appear */
+@media screen and (max-width: 768px) {
+    .nav_toggler{
+        display: block;
+        cursor: pointer;
+    }
+    .nav_menu{
+        position: fixed;
+        top: 7vh;
+        right: 0;
+        width: 50%;
+        height: 93vh;
+        background:rgb(207, 174, 125) ;
+        flex-direction: column;
+        transform:  translate(100%);
+        transition: 0.5s ease-in; 
+        /* while clicking toggler 2 times nav bar will appear and dissappear*/
+    }
+    /* Nav Actov class*/
+    .nav_active{
+        transform: translate(0%);
+    }
+    
+    /* Toggler icon Animation */
+    .toggle .line1{
+        transform: rotate(-45deg) translate(-4px, 5px);
+    }
+    .toggle .line2{
+        opacity: 0; /* 0 means fully transperent(hidden) 1 means fully appear */
+    }
+    .toggle .line3{
+        transform: rotate(45deg) translate(-4px, -5px);
+    }
+    
+    /* .logo{
+    position: relative;
+    float: left;
+    width:  100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+        
+    } */
+
+   
+ 
+
+
+
+}
+

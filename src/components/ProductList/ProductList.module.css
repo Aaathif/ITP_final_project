@@ -1,0 +1,108 @@
+h1 {
+    margin-bottom: 0px;
+}
+
+.container {
+    max-width: 1360px;
+    /* background-color: red; */
+    margin: 0 auto;
+}
+
+p.smallText {
+    color: #67108F;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+h1.ProductHeads {
+    color: #C52722;
+    margin-top: 0;
+}
+
+p.productNote {
+    color: #000;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 4rem;
+    padding-top: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.col3 {
+    flex-basis: 33%;
+    /* border: 2px solid red; */
+    min-width: 300px;
+    padding: 1rem 0;
+    /* background-color: white; */
+    margin-bottom: 1rem;
+}
+
+.colContainer {
+    /* border: 1px solid Black; */
+    max-width: 60%;
+    margin: auto;
+    background-color: white;
+    padding: 1rem 0;
+    border-radius: 2rem;
+}
+
+.colContainer h3 {
+    color: #C52722;
+}
+
+.colContainer:hover {
+    border: none;
+    box-shadow: -4px 12px 20px -2px rgba(0, 0, 0, 0.5);;
+}
+
+.colContainer img:hover {
+    transform: scale(1.1);
+}
+
+.Cartbtn {
+    margin: 0 2rem;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.rangeBtn {
+    width: 6rem;
+    height: 2rem;
+    border: none;
+    background-color: rgb(224, 218, 218);
+    border-radius: 0.5rem;
+    padding: 0 5px;
+    font-weight: bold;
+    outline: none;
+}
+
+.rangeBtn option {
+    padding: 0 5px;
+    width: 6rem;
+    height: 3rem;
+    border: none;
+    /* background-color: red; */
+    font-weight: bold;
+}
+
+.addToBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    height: 2rem;
+    background-color: #C52722;
+    border-radius: 0.5rem;
+    padding: 0 5px;
+    color: #fff;
+    font-weight: bold;
+}

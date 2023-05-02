@@ -1,0 +1,34 @@
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.search {
+    max-width: 80%;
+    margin: 4rem auto 2rem;
+}
+
+.search>input {
+    width: 80%;
+    height: 5rem;
+    border-radius: 1rem 0 0 1rem;
+    border: none;
+    background-color: rgb(231, 231, 231);
+    outline: none;
+    padding-left: 2rem;
+}
+.search>button {
+    width: 20%;
+    height: 5rem;
+    background-color: #67108F;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 1rem 1rem 0;
+    cursor: pointer;
+}
+
+.search>::placeholder {
+    color: #4a0b4a;
+    /* padding-left: 2rem; */
+}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    /* background-color: #eee; */
+    align-items: center;
+    
+}
+
+.row {
+    /* background-image: url("./images/IMGprofile/back2.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content:left;
+    flex-wrap: wrap;
+
+}
+
+.col {
+    flex-basis: 20%;
+    min-width: 300px;
+    margin-left: 20px;
+
+}
+
+.col1 {
+    flex-basis: 60%;
+    min-width: 300px;
+    margin-left: 20px;
+}
+
+.img1 {
+    display: block;
+    margin: 20px;
+    padding: 10px;
+    border: 5px solid #333;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    margin: 20px;
+    padding: 10px;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+}
+
+.buttons {
+    background-color: #c2af07;
+    color: black;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 175px;
+}
+
+.buttonDelete {
+    background-color: #860000;
+    color: #eee;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 175px;
+}
+
+.details{
+    font-size: larger;
+    font-weight: 900;
+    text-align: left;
+}

@@ -1,0 +1,68 @@
+
+
+.banner {
+    /* background-image: url('C:\Users\MS Surface Pro\Pictures\ReactNew\newproj\src\Components\Banner\kfc.png'); */
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(207, 174, 125);
+    height: 400px;
+    position: relative;
+  }
+  
+  .container {
+    display: flex;
+  }
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: #fff;
+    width: 50%;
+    max-width: 1000px;
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .banner-text h1 {
+    font-size: 48px;
+    margin-bottom: 0px;
+    color: rgb(74, 11, 74);
+    
+  }
+  
+  .banner-text p {
+    font-size: 24px;
+    line-height: 1.5;
+    color: black;
+  }
+
+  .banner img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .banner button{
+    color: black;
+    background-color: purple;
+    border-color: purple;
+    border-radius: 20%;
+    padding: 5px 10px;
+    box-shadow: inset;
+  }
+
+  .image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image img {
+    max-width: 100%;
+    max-height: 100%;
+  }

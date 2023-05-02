@@ -1,0 +1,36 @@
+.container {
+    margin: 8rem 2rem;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.col5 {
+    flex-basis: 18%;
+    margin: 1rem;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #f1b9b9;
+    width: 190px;
+    padding: 2rem 0;
+    border-radius: 1rem;
+}
+
+.features>img {
+    margin-bottom: 2rem;
+}
+
+.features>button {
+    padding: 0.2rem 3rem;
+    background-color: #f1b9b9;
+    border: none;
+    border-radius: 0.5rem;
+}

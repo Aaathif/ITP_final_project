@@ -1,0 +1,76 @@
+.container {
+    margin: 4rem 2rem;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.row>div:nth-child(2){
+    text-align: left;
+    padding-right: 5rem;
+}
+
+.col2 {
+    flex-basis: 50%;
+}
+
+.col2>img {
+    border-radius: 0 2rem;
+}
+
+.col2>h6{
+    font-weight: bold;
+    color: #67108F;
+    /* font-size: 20px; */
+}
+
+.col2>h3{
+    font-weight: bold;
+    font-size: 30px;
+    color: #C52726;
+}
+
+.col2>h2 {
+    margin-bottom: 2rem;
+}
+
+.col2>select {
+    width: 6rem;
+    margin-right: 2rem;
+    height: 4rem;
+    padding: 1rem;
+    outline: none;
+}
+
+.col2>input {
+    width: 6rem;
+    height: 4rem;
+    padding: 1rem;
+    outline: none;
+    margin-right: 4rem;
+}
+
+.col2>button {
+    width: 12rem;
+    height: 4rem;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    background-color: #67108F;
+    color: white;
+    font-weight: 900;
+}
+
+.col2>h4{
+    margin-top: 1rem;
+}
+
+.col2>span {
+    font-size: 12px;
+    color: gray;
+}
