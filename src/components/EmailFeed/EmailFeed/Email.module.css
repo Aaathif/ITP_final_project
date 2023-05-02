@@ -9,7 +9,7 @@
     flex-wrap: wrap;
     text-align: center;
     padding: 8rem 0;
-    background-image: linear-gradient(rgba(66, 62, 43, 0.6),rgba(0,0,0,0.8)),url('E:\User\Documents\Sliit\2 Year\Semester 2\Past Content\IT-2080 IT Project\1. ITP Project training\Group Project\MainProject\food_train\public\images\mailBack2.jpg'); 
+    background-image: linear-gradient(rgba(66, 62, 43, 0.6),rgba(0,0,0,0.8)),url('../../../../public/images/mailBack2.jpg'); 
     /* background-color: #0062cc; */
      background-size:cover;
      background-repeat: no-repeat;
