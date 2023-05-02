@@ -27,6 +27,7 @@ import Profile from './employee/pages/home/Profile';
 import Attendance from './employee/pages/attandence/Attendance'
 import Leave from './employee/pages/leave/Leave'
 import PayrollSlip from './employee/pages/payroll slip/PayrollSlip'
+import SalaryMain from "./components/Salary2/Salary2/SalaryMain";
 
 
 function App() {
@@ -226,6 +227,14 @@ function App() {
                 element={
                   <ProtectedRoute>
                     <List columns={PayrollColumns} />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="new"
+                element={
+                  <ProtectedRoute>
+                    <SalaryMain inputs={blogInput} title="Add Blog" />
                   </ProtectedRoute>
                 }
               />
